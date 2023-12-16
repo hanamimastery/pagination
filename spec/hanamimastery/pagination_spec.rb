@@ -82,7 +82,7 @@ RSpec.describe Hanamimastery::Pagination do
     end
 
     describe 'PaginationType' do
-      let(:type) { described_class::PaginationType }
+      let(:type) { described_class::Types::PaginationType }
 
       it 'uses correct type coercion' do
         aggregate_failures do
